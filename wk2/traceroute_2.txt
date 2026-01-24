@@ -1,0 +1,16 @@
+dianas-MacBook-Pro:~ dianamohammadi$ traceroute 138.197.141.218
+traceroute to 138.197.141.218 (138.197.141.218), 64 hops max, 40 byte packets
+ 1  10.0.0.1 (10.0.0.1)  11.494 ms  4.524 ms  3.649 ms
+ 2  pool-99-241-194-1.cpe.net.cable.rogers.com (99.241.194.1)  16.615 ms  15.544 ms  12.916 ms
+ 3  24.156.151.133 (24.156.151.133)  13.216 ms  14.465 ms  95.289 ms
+ 4  3033-cgw01.bloor.rmgt.net.rogers.com (209.148.232.77)  19.184 ms  16.207 ms  14.572 ms
+ 5  69.63.248.67 (69.63.248.67)  16.778 ms  13.298 ms  17.435 ms
+ 6  digitalocean-tor1-edge2.ip4.torontointernetxchange.net (206.108.35.15)  14.540 ms  14.852 ms  14.786 ms
+ 7  * * *
+ 8  * * *
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *

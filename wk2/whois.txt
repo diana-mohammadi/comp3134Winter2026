@@ -1,0 +1,346 @@
+georgebrown.ca:
+
+    Domain Information
+    Domain:
+    georgebrown.ca
+    Registered On:
+    2002-07-04
+    Expires On:
+    2026-07-04
+    Updated On:
+    2026-01-15
+    Status:
+    client transfer prohibited
+    Name Servers:
+    ns1.d-zone.ca
+    ns1.georgebrown.ca
+    ns2.d-zone.ca
+    ns2.georgebrown.ca
+    Registrar Information
+    Registrar:
+    Webnames.ca Inc.
+    IANA ID:
+    456
+    URL:
+    webnames.ca
+    Abuse Email:
+    abuse@webnames.ca
+    Abuse Phone:
+    +1.8662217878
+    Registrant Contact
+    Name:
+    Shahin Javanshiri
+    Organization:
+    George Brown College
+    Street:
+    P.O. Box 1015 Station B
+    City:
+    Toronto
+    State:
+    ON
+    Postal Code:
+    M5T2T9
+    Country:
+    CA
+    Phone:
+    +1.4164155000
+    Email:
+    email@georgebrown.ca
+    Administrative Contact
+    Name:
+    Shahin Javanshiri
+    Organization:
+    George Brown College
+    Street:
+    P.O. Box 1015 Station B
+    City:
+    Toronto
+    State:
+    ON
+    Postal Code:
+    M5T2T9
+    Country:
+    CA
+    Phone:
+    +1.4164155000
+    Email:
+    email@georgebrown.ca
+    Technical Contact
+    Name:
+    Dorin Grunberg
+    Organization:
+    George Brown College
+    Street:
+    P.O. Box 1015 Station B
+    City:
+    Toronto
+    State:
+    ON
+    Postal Code:
+    M5T2T9
+    Country:
+    CA
+    Phone:
+    +1.4164155000
+    Email:
+    email@georgebrown.ca
+
+
+canada.ca
+
+    Domain Information
+    Domain:
+    canada.ca
+    Registered On:
+    2002-11-25
+    Expires On:
+    2026-10-16
+    Updated On:
+    2025-10-30
+    Status:
+    client transfer prohibited
+    client update prohibited
+    Name Servers:
+    ns1.d-zone.ca
+    ns10.ent.global.gc.ca
+    ns11.ent.global.gc.ca
+    ns2.d-zone.ca
+    ns40.ent.global.gc.ca
+    ns41.ent.global.gc.ca
+    Registrar Information
+    Registrar:
+    Authentic Web Inc.
+    IANA ID:
+    not applicable
+    URL:
+    authenticweb.com
+    Abuse Email:
+    peter@authenticweb.com
+    Abuse Phone:
+    +1.4165833770
+    Registrant Contact
+    Name:
+    Geoff Worthing
+    Organization:
+    Shared Services Canada
+    Street:
+    21 Fitzgerald Road
+    City:
+    Ottawa
+    State:
+    ON
+    Postal Code:
+    K1A0L5
+    Country:
+    CA
+    Phone:
+    +1.6136978032
+    Email:
+    email@gc.ca
+    Administrative Contact
+    Name:
+    Geoff Worthing
+    Organization:
+    Shared Services Canada
+    Street:
+    21 Fitzgerald Road
+    City:
+    Ottawa
+    State:
+    ON
+    Postal Code:
+    K1A0L5
+    Country:
+    CA
+    Phone:
+    +1.6136978032
+    Email:
+    email@gc.ca
+    Technical Contact
+    Name:
+    Michelle Saunders
+    Organization:
+    Shared Services Canada
+    Street:
+    21 Fitzgerald Road
+    City:
+    Ottawa
+    State:
+    ON
+    Postal Code:
+    K1A0L5
+    Country:
+    CA
+    Phone:
+    +1.6133010722
+    Email:
+    email@gc.ca
+
+
+github.com:
+    Updated 2 days ago
+    Domain Information
+    Domain:
+    github.com
+    Registered On:
+    2007-10-09
+    Expires On:
+    2026-10-09
+    Updated On:
+    2024-09-07
+    Status:
+    client delete prohibited
+    client transfer prohibited
+    client update prohibited
+    Name Servers:
+    dns1.p08.nsone.net
+    dns2.p08.nsone.net
+    dns3.p08.nsone.net
+    dns4.p08.nsone.net
+    ns-1283.awsdns-32.org
+    ns-1707.awsdns-21.co.uk
+    ns-421.awsdns-52.com
+    ns-520.awsdns-01.net
+    Registrar Information
+    Registrar:
+    MarkMonitor Inc.
+    IANA ID:
+    292
+    Email:
+    https://www.markmonitor.com/contact-us/
+    Abuse Email:
+    abusecomplaints@markmonitor.com
+    Abuse Phone:
+    +1.2086851750
+    Registrant Contact
+    Organization:
+    GitHub, Inc.
+    Country:
+    US
+    Email:
+    https://domains.markmonitor.com/whois/contact/github.com
+    Technical Contact
+    Email:
+    https://domains.markmonitor.com/whois/contact/github.com
+
+
+
+canva.com
+    Domain Information
+    Domain:
+    canva.com
+    Registered On:
+    2001-05-05
+    Expires On:
+    2030-05-05
+    Updated On:
+    2026-01-14
+    Status:
+    client transfer prohibited
+    Name Servers:
+    ns-1421.awsdns-49.org
+    ns-1851.awsdns-39.co.uk
+    ns-253.awsdns-31.com
+    ns-730.awsdns-27.net
+    Registrar Information
+    Registrar:
+    Gandi SAS
+    IANA ID:
+    81
+    Abuse Email:
+    abuse@support.gandi.net
+    Abuse Phone:
+    +33.170377661
+    Registrant Contact
+    Organization:
+    Canva Pty. Ltd.
+    State:
+    New South Wales
+    Country:
+    AU
+    Email:
+    email@contact.gandi.net
+    Administrative Contact
+    Email:
+    email@contact.gandi.net
+    Technical Contact
+    Email:
+    email@contact.gandi.net
+
+
+colorhunt.co
+    Updated 1 second ago
+    Domain Information
+    Domain:
+    colorhunt.co
+    Registered On:
+    2015-08-05
+    Expires On:
+    2026-08-04
+    Updated On:
+    2025-10-07
+    Status:
+    clientRenewProhibited
+    clientTransferProhibited
+    clientUpdateProhibited
+    clientDeleteProhibited
+    Name Servers:
+    scott.ns.cloudflare.com
+    jule.ns.cloudflare.com
+    Registrar Information
+    Registrar:
+    GoDaddy.com, LLC
+    IANA ID:
+    146
+    URL:
+    http://whois.godaddy.com
+    Abuse Email:
+    abuse@godaddy.com
+    Abuse Phone:
+    +1.4806242505
+    Raw Whois Data
+    Domain Name: COLORHUNT.CO
+    Registry Domain ID: D3537461-CNIC
+    Registrar WHOIS Server: whois.godaddy.com
+    Registrar URL: http://whois.godaddy.com
+    Updated Date: 2025-10-07T01:35:58.0Z
+    Creation Date: 2015-08-05T10:54:48.0Z
+    Registry Expiry Date: 2026-08-04T23:59:59.0Z
+    Registrar: GoDaddy.com, LLC
+    Registrar IANA ID: 146
+    Domain Status: clientRenewProhibited https://icann.org/epp#clientRenewProhibited
+    Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+    Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+    Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+    Registrant Email: Please query the RDDS service of the Registrar of Record identified in this output for information on how to contact the Registrant, Admin, or Tech contact of the queried domain name.
+    Admin Email: Please query the RDDS service of the Registrar of Record identified in this output for information on how to contact the Registrant, Admin, or Tech contact of the queried domain name.
+    Tech Email: Please query the RDDS service of the Registrar of Record identified in this output for information on how to contact the Registrant, Admin, or Tech contact of the queried domain name.
+    Name Server: SCOTT.NS.CLOUDFLARE.COM
+    Name Server: JULE.NS.CLOUDFLARE.COM
+    DNSSEC: unsigned
+    Billing Email: Please query the RDDS service of the Registrar of Record identified in this output for information on how to contact the Registrant, Admin, or Tech contact of the queried domain name.
+    Registrar Abuse Contact Email: email@godaddy.com
+    Registrar Abuse Contact Phone: +1.4806242505
+    URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+    >>> Last update of WHOIS database: 2026-01-24T00:00:57.0Z <<<
+
+    For more information on Whois status codes, please visit https://icann.org/epp
+
+    >>> IMPORTANT INFORMATION ABOUT THE DEPLOYMENT OF RDAP: please visit
+    https://www.centralnicregistry.com/support/information/rdap <<<
+
+    The registration data available in this service is limited. Additional
+    data may be available at https://lookup.icann.org
+
+    The Whois and RDAP services are provided by CentralNic, and contain
+    information pertaining to Internet domain names registered by our
+    our customers. By using this service you are agreeing (1) not to use any
+    information presented here for any purpose other than determining
+    ownership of domain names, (2) not to store or reproduce this data in
+    any way, (3) not to use any high-volume, automated, electronic processes
+    to obtain data from this service. Abuse of this service is monitored and
+    actions in contravention of these terms will result in being permanently
+    blacklisted. All data is (c) CentralNic Ltd (https://www.centralnicregistry.com)
+
+    Access to the Whois and RDAP services is rate limited. For more
+    information, visit https://registrar-console.centralnicregistry.com/pub/whois_guidance.
