@@ -1,0 +1,47 @@
+root@lamponubuntu2404-s-1vcpu-1gb-tor1-01:~# sudo tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+01:20:38.552011 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], seq 1771225215:1771225323, ack 3676206555, win 376, options [nop,nop,TS val 4290803794 ecr 1921294590], length 108
+01:20:38.552175 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], seq 108:192, ack 1, win 376, options [nop,nop,TS val 4290803795 ecr 1921294590], length 84
+01:20:38.552203 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], seq 192:260, ack 1, win 376, options [nop,nop,TS val 4290803795 ecr 1921294590], length 68
+01:20:38.552483 IP pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 0, win 2048, options [nop,nop,TS val 1921294695 ecr 4290803772], length 0
+01:20:38.552483 IP pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:37, ack 0, win 2048, options [nop,nop,TS val 1921294695 ecr 4290803772], length 36
+01:20:38.552547 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], seq 260:296, ack 37, win 376, options [nop,nop,TS val 4290803795 ecr 1921294695], length 36
+01:20:38.571974 IP pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 37:73, ack 192, win 2048, options [nop,nop,TS val 1921294714 ecr 4290803795], length 36
+01:20:38.571974 IP pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 192, win 2048, options [nop,nop,TS val 1921294714 ecr 4290803795], length 0
+01:20:38.571974 IP pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 296, win 2048, options [nop,nop,TS val 1921294716 ecr 4290803795], length 0
+01:20:38.572181 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], seq 296:332, ack 73, win 376, options [nop,nop,TS val 4290803815 ecr 1921294714], length 36
+01:20:38.589179 IP pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 332, win 2048, options [nop,nop,TS val 1921294735 ecr 4290803815], length 0
+01:20:38.595654 IP pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 73:109, ack 332, win 2048, options [nop,nop,TS val 1921294735 ecr 4290803815], length 36
+01:20:38.595852 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], seq 332:368, ack 109, win 376, options [nop,nop,TS val 4290803838 ecr 1921294735], length 36
+01:20:38.610800 IP pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 109:145, ack 332, win 2048, options [nop,nop,TS val 1921294756 ecr 4290803815], length 36
+01:20:38.610985 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], seq 368:404, ack 145, win 376, options [nop,nop,TS val 4290803853 ecr 1921294756], length 36
+01:20:38.617256 IP pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 368, win 2048, options [nop,nop,TS val 1921294759 ecr 4290803838], length 0
+01:20:38.625870 IP pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 404, win 2048, options [nop,nop,TS val 1921294772 ecr 4290803853], length 0
+01:20:38.632375 IP pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 145:181, ack 404, win 2048, options [nop,nop,TS val 1921294776 ecr 4290803853], length 36
+01:20:38.632595 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], seq 404:440, ack 181, win 376, options [nop,nop,TS val 4290803875 ecr 1921294776], length 36
+01:20:38.651824 IP pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 181:217, ack 440, win 2048, options [nop,nop,TS val 1921294796 ecr 4290803875], length 36
+01:20:38.651993 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], seq 440:476, ack 217, win 376, options [nop,nop,TS val 4290803894 ecr 1921294796], length 36
+01:20:38.653795 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.57322 > 67.207.67.3.domain: 34161+ [1au] PTR? 149.194.241.99.in-addr.arpa. (56)
+01:20:38.654011 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.51860 > 67.207.67.2.domain: Flags [S], seq 2460320200, win 64240, options [mss 1460,sackOK,TS val 2354962682 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+01:20:38.654502 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.34094 > 67.207.67.3.domain: 41668+ [1au] PTR? 218.141.197.138.in-addr.arpa. (57)
+01:20:38.656356 IP 67.207.67.3.domain > lamponubuntu2404-s-1vcpu-1gb-tor1-01.57322: 34161 1/0/1 PTR pool-99-241-194-149.cpe.net.cable.rogers.com. (114)
+01:20:38.656357 IP 67.207.67.3.domain > lamponubuntu2404-s-1vcpu-1gb-tor1-01.34094: 41668 NXDomain 0/1/1 (124)
+01:20:38.657221 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], seq 476:3372, ack 217, win 376, options [nop,nop,TS val 4290803900 ecr 1921294796], length 2896
+01:20:38.657234 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], seq 3372:4608, ack 217, win 376, options [nop,nop,TS val 4290803900 ecr 1921294796], length 1236
+01:20:38.657346 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], seq 4608:5100, ack 217, win 376, options [nop,nop,TS val 4290803900 ecr 1921294796], length 492
+01:20:38.657355 IP 67.207.67.2.domain > lamponubuntu2404-s-1vcpu-1gb-tor1-01.51860: Flags [S.], seq 1095718335, ack 2460320201, win 65160, options [mss 1460,sackOK,TS val 1132782484 ecr 2354962682,nop,wscale 10], length 0
+01:20:38.657388 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.51860 > 67.207.67.2.domain: Flags [.], ack 1, win 502, options [nop,nop,TS val 2354962686 ecr 1132782484], length 0
+01:20:38.657426 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.51860 > 67.207.67.2.domain: Flags [P.], seq 1:48, ack 1, win 502, options [nop,nop,TS val 2354962686 ecr 1132782484], length 47 16285+ PTR? 149.194.241.99.in-addr.arpa. (45)
+01:20:38.658251 IP pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 440, win 2048, options [nop,nop,TS val 1921294796 ecr 4290803875], length 0
+01:20:38.658321 IP 67.207.67.2.domain > lamponubuntu2404-s-1vcpu-1gb-tor1-01.51860: Flags [.], ack 48, win 64, options [nop,nop,TS val 1132782485 ecr 2354962686], length 0
+01:20:38.661007 IP 67.207.67.2.domain > lamponubuntu2404-s-1vcpu-1gb-tor1-01.51860: Flags [P.], seq 1:106, ack 48, win 64, options [nop,nop,TS val 1132782488 ecr 2354962686], length 105 16285 1/0/0 PTR pool-99-241-194-149.cpe.net.cable.rogers.com. (103)
+01:20:38.661057 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.51860 > 67.207.67.2.domain: Flags [.], ack 106, win 502, options [nop,nop,TS val 2354962689 ecr 1132782488], length 0
+01:20:38.675604 IP pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 476, win 2048, options [nop,nop,TS val 1921294813 ecr 4290803894], length 0
+01:20:38.675604 IP pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 5100, win 2048, options [nop,nop,TS val 1921294822 ecr 4290803900], length 0
+01:20:38.682160 IP pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 217:253, ack 476, win 2048, options [nop,nop,TS val 1921294815 ecr 4290803894], length 36
+01:20:38.682323 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], seq 5100:5136, ack 253, win 376, options [nop,nop,TS val 4290803925 ecr 1921294813], length 36
+01:20:38.690721 IP pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 253:289, ack 5100, win 2048, options [nop,nop,TS val 1921294835 ecr 4290803900], length 36
+01:20:38.690886 IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], seq 5136:5172, ack 289, win 376, options [nop,nop,TS val 4290803933 ecr 1921294835], length 36
+01:20:38.697221 IP pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 5136, win 2048, options [nop,nop,TS val 1921294843 ecr 4290803925], length 0
+01:20:38.705839 IP pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 5172, win 2048, options [nop,nop,TS val 1921294852 ecr 4290803933], length 0

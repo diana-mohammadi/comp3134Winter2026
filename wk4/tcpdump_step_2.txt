@@ -1,0 +1,17 @@
+root@lamponubuntu2404-s-1vcpu-1gb-tor1-01:~# sudo tcpdump -i any -c 10
+tcpdump: data link type LINUX_SLL2
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on any, link-type LINUX_SLL2 (Linux cooked v2), snapshot length 262144 bytes
+01:16:37.720485 eth0  Out IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], seq 1771215271:1771215339, ack 3676200079, win 381, options [nop,nop,TS val 4290562963 ecr 1921053853], length 68
+01:16:37.720613 eth0  Out IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], seq 68:104, ack 1, win 381, options [nop,nop,TS val 4290562963 ecr 1921053853], length 36
+01:16:37.721360 eth0  In  IP pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 0, win 2045, options [nop,nop,TS val 1921053865 ecr 4290562946], length 0
+01:16:37.724734 eth0  Out IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], seq 104:212, ack 1, win 381, options [nop,nop,TS val 4290562967 ecr 1921053865], length 108
+01:16:37.724856 eth0  Out IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], seq 212:248, ack 1, win 381, options [nop,nop,TS val 4290562967 ecr 1921053865], length 36
+01:16:37.724958 eth0  Out IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], seq 248:300, ack 1, win 381, options [nop,nop,TS val 4290562967 ecr 1921053865], length 52
+01:16:37.725040 eth0  Out IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], seq 300:376, ack 1, win 381, options [nop,nop,TS val 4290562967 ecr 1921053865], length 76
+01:16:37.725200 eth0  Out IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], seq 376:444, ack 1, win 381, options [nop,nop,TS val 4290562968 ecr 1921053865], length 68
+01:16:37.725308 eth0  Out IP lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], seq 444:480, ack 1, win 381, options [nop,nop,TS val 4290562968 ecr 1921053865], length 36
+01:16:37.727807 eth0  In  IP pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:37, ack 0, win 2048, options [nop,nop,TS val 1921053874 ecr 4290562946], length 36
+10 packets captured
+50 packets received by filter
+0 packets dropped by kernel

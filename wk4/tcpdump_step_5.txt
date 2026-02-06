@@ -1,0 +1,72 @@
+root@lamponubuntu2404-s-1vcpu-1gb-tor1-01:~# sudo tcpdump -v
+tcpdump: listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+01:23:54.779616 IP (tos 0x0, ttl 55, id 0, offset 0, flags [DF], proto TCP (6), length 52)
+    pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], cksum 0x1d19 (correct), ack 1771758939, win 2045, options [nop,nop,TS val 1921490919 ecr 4291000001], length 0
+01:23:54.779664 IP (tos 0x10, ttl 64, id 31528, offset 0, flags [DF], proto TCP (6), length 52)
+    lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [.], cksum 0x3f4d (incorrect -> 0x2344), ack 36, win 373, options [nop,nop,TS val 4291000022 ecr 1921490919], length 0
+01:23:54.780755 IP (tos 0x12,ECT(0), ttl 64, id 31529, offset 0, flags [DF], proto TCP (6), length 96)
+    lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], cksum 0x3f79 (incorrect -> 0xf7d2), seq 37:81, ack 36, win 373, options [nop,nop,TS val 4291000023 ecr 1921490919], length 44
+01:23:54.780839 IP (tos 0x12,ECT(0), ttl 64, id 31530, offset 0, flags [DF], proto TCP (6), length 104)
+    lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], cksum 0x3f81 (incorrect -> 0xc630), seq 81:133, ack 36, win 373, options [nop,nop,TS val 4291000023 ecr 1921490919], length 52
+01:23:54.780906 IP (tos 0x12,ECT(0), ttl 64, id 31531, offset 0, flags [DF], proto TCP (6), length 120)
+    lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], cksum 0x3f91 (incorrect -> 0x211d), seq 133:201, ack 36, win 373, options [nop,nop,TS val 4291000023 ecr 1921490919], length 68
+01:23:54.780972 IP (tos 0x12,ECT(0), ttl 64, id 31532, offset 0, flags [DF], proto TCP (6), length 120)
+    lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], cksum 0x3f91 (incorrect -> 0xcb0d), seq 201:269, ack 36, win 373, options [nop,nop,TS val 4291000023 ecr 1921490919], length 68
+01:23:54.781032 IP (tos 0x12,ECT(0), ttl 64, id 31533, offset 0, flags [DF], proto TCP (6), length 88)
+    lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], cksum 0x3f71 (incorrect -> 0x3140), seq 269:305, ack 36, win 373, options [nop,nop,TS val 4291000023 ecr 1921490919], length 36
+01:23:54.790675 IP (tos 0x0, ttl 55, id 0, offset 0, flags [DF], proto TCP (6), length 52)
+    pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], cksum 0x1caf (correct), ack 37, win 2048, options [nop,nop,TS val 1921490935 ecr 4291000016], length 0
+01:23:54.790676 IP (tos 0x0, ttl 55, id 0, offset 0, flags [DF], proto TCP (6), length 52)
+    pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], cksum 0x1bda (correct), ack 201, win 2048, options [nop,nop,TS val 1921490941 ecr 4291000023], length 0
+01:23:54.797152 IP (tos 0x2,ECT(0), ttl 55, id 0, offset 0, flags [DF], proto TCP (6), length 88)
+    pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], cksum 0x0961 (correct), seq 36:72, ack 37, win 2048, options [nop,nop,TS val 1921490939 ecr 4291000016], length 36
+01:23:54.797308 IP (tos 0x12,ECT(0), ttl 64, id 31534, offset 0, flags [DF], proto TCP (6), length 88)
+    lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], cksum 0x3f71 (incorrect -> 0xd080), seq 305:341, ack 72, win 373, options [nop,nop,TS val 4291000040 ecr 1921490939], length 36
+01:23:54.803456 IP (tos 0x0, ttl 55, id 0, offset 0, flags [DF], proto TCP (6), length 52)
+    pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], cksum 0x1b70 (correct), ack 305, win 2048, options [nop,nop,TS val 1921490943 ecr 4291000023], length 0
+01:23:54.812103 IP (tos 0x0, ttl 55, id 0, offset 0, flags [DF], proto TCP (6), length 52)
+    pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], cksum 0x1b2c (correct), ack 341, win 2048, options [nop,nop,TS val 1921490958 ecr 4291000040], length 0
+01:23:54.818560 IP (tos 0x2,ECT(0), ttl 55, id 0, offset 0, flags [DF], proto TCP (6), length 88)
+    pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], cksum 0xaf9d (correct), seq 72:108, ack 341, win 2048, options [nop,nop,TS val 1921490960 ecr 4291000040], length 36
+01:23:54.818750 IP (tos 0x12,ECT(0), ttl 64, id 31535, offset 0, flags [DF], proto TCP (6), length 88)
+    lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], cksum 0x3f71 (incorrect -> 0x8e7e), seq 341:377, ack 108, win 373, options [nop,nop,TS val 4291000061 ecr 1921490960], length 36
+01:23:54.836000 IP (tos 0x2,ECT(0), ttl 55, id 0, offset 0, flags [DF], proto TCP (6), length 88)
+    pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], cksum 0xb3ba (correct), seq 108:144, ack 377, win 2048, options [nop,nop,TS val 1921490980 ecr 4291000061], length 36
+01:23:54.836198 IP (tos 0x12,ECT(0), ttl 64, id 31536, offset 0, flags [DF], proto TCP (6), length 88)
+    lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], cksum 0x3f71 (incorrect -> 0xc31b), seq 377:413, ack 144, win 373, options [nop,nop,TS val 4291000079 ecr 1921490980], length 36
+01:23:54.842332 IP (tos 0x0, ttl 55, id 0, offset 0, flags [DF], proto TCP (6), length 52)
+    pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], cksum 0x1aba (correct), ack 377, win 2048, options [nop,nop,TS val 1921490979 ecr 4291000061], length 0
+01:23:54.853134 IP (tos 0x0, ttl 55, id 0, offset 0, flags [DF], proto TCP (6), length 52)
+    pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], cksum 0x1a4e (correct), ack 413, win 2048, options [nop,nop,TS val 1921490997 ecr 4291000079], length 0
+01:23:54.859761 IP (tos 0x2,ECT(0), ttl 55, id 0, offset 0, flags [DF], proto TCP (6), length 88)
+    pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], cksum 0xcaf3 (correct), seq 144:180, ack 413, win 2048, options [nop,nop,TS val 1921491000 ecr 4291000079], length 36
+01:23:54.859947 IP (tos 0x12,ECT(0), ttl 64, id 31537, offset 0, flags [DF], proto TCP (6), length 88)
+    lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], cksum 0x3f71 (incorrect -> 0xd806), seq 413:449, ack 180, win 373, options [nop,nop,TS val 4291000102 ecr 1921491000], length 36
+01:23:54.874900 IP (tos 0x2,ECT(0), ttl 55, id 0, offset 0, flags [DF], proto TCP (6), length 88)
+    pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], cksum 0x19f7 (correct), seq 180:216, ack 413, win 2048, options [nop,nop,TS val 1921491020 ecr 4291000079], length 36
+01:23:54.875100 IP (tos 0x12,ECT(0), ttl 64, id 31538, offset 0, flags [DF], proto TCP (6), length 88)
+    lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], cksum 0x3f71 (incorrect -> 0xd036), seq 449:485, ack 216, win 373, options [nop,nop,TS val 4291000117 ecr 1921491020], length 36
+01:23:54.877506 IP (tos 0x12,ECT(0), ttl 64, id 31539, offset 0, flags [DF], proto TCP (6), length 176)
+    lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], cksum 0x3fc9 (incorrect -> 0x5633), seq 485:609, ack 216, win 373, options [nop,nop,TS val 4291000120 ecr 1921491020], length 124
+01:23:54.877619 IP (tos 0x12,ECT(0), ttl 64, id 31540, offset 0, flags [DF], proto TCP (6), length 88)
+    lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], cksum 0x3f71 (incorrect -> 0x5a17), seq 609:645, ack 216, win 373, options [nop,nop,TS val 4291000120 ecr 1921491020], length 36
+01:23:54.878219 IP (tos 0x0, ttl 64, id 32740, offset 0, flags [none], proto UDP (17), length 85)
+    lamponubuntu2404-s-1vcpu-1gb-tor1-01.38188 > 67.207.67.3.domain: 57120+ [1au] PTR? 218.141.197.138.in-addr.arpa. (57)
+01:23:54.881370 IP (tos 0x0, ttl 55, id 0, offset 0, flags [DF], proto TCP (6), length 52)
+    pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], cksum 0x19b2 (correct), ack 449, win 2048, options [nop,nop,TS val 1921491022 ecr 4291000102], length 0
+01:23:54.894230 IP (tos 0x0, ttl 55, id 0, offset 0, flags [DF], proto TCP (6), length 52)
+    pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [.], cksum 0x18d0 (correct), ack 645, win 2045, options [nop,nop,TS val 1921491037 ecr 4291000120], length 0
+01:23:54.899919 IP (tos 0x0, ttl 60, id 5785, offset 0, flags [none], proto UDP (17), length 152)
+    67.207.67.3.domain > lamponubuntu2404-s-1vcpu-1gb-tor1-01.38188: 57120 NXDomain 0/1/1 (124)
+01:23:54.900907 IP (tos 0x2,ECT(0), ttl 55, id 0, offset 0, flags [DF], proto TCP (6), length 88)
+    pool-99-241-194-149.cpe.net.cable.rogers.com.49853 > lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], cksum 0xa9f8 (correct), seq 216:252, ack 645, win 2048, options [nop,nop,TS val 1921491040 ecr 4291000120], length 36
+01:23:54.901050 IP (tos 0x12,ECT(0), ttl 64, id 31541, offset 0, flags [DF], proto TCP (6), length 88)
+    lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], cksum 0x3f71 (incorrect -> 0x7a02), seq 645:681, ack 252, win 373, options [nop,nop,TS val 4291000143 ecr 1921491040], length 36
+01:23:54.901403 IP (tos 0x0, ttl 64, id 57624, offset 0, flags [none], proto UDP (17), length 84)
+    lamponubuntu2404-s-1vcpu-1gb-tor1-01.36056 > 67.207.67.3.domain: 35545+ [1au] PTR? 149.194.241.99.in-addr.arpa. (56)
+01:23:54.902329 IP (tos 0x0, ttl 64, id 58248, offset 0, flags [DF], proto TCP (6), length 64)
+    lamponubuntu2404-s-1vcpu-1gb-tor1-01.56194 > 67.207.67.2.domain: Flags [S], cksum 0x9fa3 (incorrect -> 0xcfc3), seq 1636041123, win 64240, options [mss 1460,sackOK,TS val 2355158931 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+01:23:54.902556 IP (tos 0x12,ECT(0), ttl 64, id 31542, offset 0, flags [DF], proto TCP (6), length 2136)
+    lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], cksum 0x4771 (incorrect -> 0xea56), seq 681:2765, ack 252, win 373, options [nop,nop,TS val 4291000145 ecr 1921491040], length 2084
+01:23:54.902697 IP (tos 0x12,ECT(0), ttl 64, id 31544, offset 0, flags [DF], proto TCP (6), length 2948)
+    lamponubuntu2404-s-1vcpu-1gb-tor1-01.ssh > pool-99-241-194-149.cpe.net.cable.rogers.com.49853: Flags [P.], cksum 0x4a9d (incorrect -> 0x87bc), seq 2765:5661, ack 252, win 373, options [nop,nop,TS val 4291000145 ecr 1921491040], length 2896
