@@ -1,0 +1,2 @@
+sudo ufw allow 2222/tcp
+ssh -p 2222 root@138.197.141.218
