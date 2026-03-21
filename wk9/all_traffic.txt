@@ -1,0 +1,4 @@
+root@lamponubuntu2404-s-1vcpu-1gb-tor1-01:~# sudo tcpdump -i any icmp
+tcpdump: data link type LINUX_SLL2
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on any, link-type LINUX_SLL2 (Linux cooked v2), snapshot length 262144 bytes
