@@ -1,0 +1,5 @@
+What I see on the browser:
+When I open the page normally, it displays the files and folders in the current directory. When I use q=./, it also shows the contents of the current directory. When I use q=hello, the page shows a warning or error because that path does not exist. This happens because the script takes user input directly from the query string and uses it in scandir() without any validation.
+
+What sensitive information is given by this page:
+This page exposes internal file names and folder names from the server. It reveals the structure of the web root and helps a user understand how the server is organized. This information could help an attacker find important files or plan further attacks.

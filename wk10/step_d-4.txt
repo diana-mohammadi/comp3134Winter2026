@@ -1,0 +1,5 @@
+What I see on the browser:
+When I open the page with q=../../, the browser shows files and folders from directories outside the web root. This means the script is vulnerable to directory traversal because it allows moving to parent directories using ../ without any filtering or validation.
+
+What sensitive information is given by this page:
+This page can expose system directories, application folders, and other internal server contents that should not be publicly accessible. It reveals the directory structure of the server and may help an attacker locate sensitive files or configuration data.

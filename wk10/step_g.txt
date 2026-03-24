@@ -1,0 +1,1 @@
+I will mitigate the problem by removing HTML comments from the page source and replacing them with PHP comments. PHP comments are processed on the server side and are not visible in the browser source code.

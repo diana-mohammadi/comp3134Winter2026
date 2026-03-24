@@ -1,0 +1,5 @@
+I will mitigate the first problem by using basename() so the input is reduced to only the final name and cannot include directory traversal patterns like ../.
+
+I will mitigate the second problem by using file_exists() so the script first checks whether the requested folder exists before trying to access it.
+
+For extra protection, I also block dots in the input so a user cannot pass a filename.

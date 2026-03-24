@@ -1,0 +1,5 @@
+What I see on the browser:
+When I open the page with q=%2e%2e%2f, the browser still allows directory traversal. The encoded characters are interpreted as ../, so the script continues to access directories outside the intended location. This shows that URL encoding can bypass simple input expectations when no validation is used.
+
+What sensitive information is given by this page:
+This page can reveal internal directories and file names outside the web root, even when traversal characters are URL-encoded. It exposes server structure and information that could be useful for an attacker to explore the system further.
