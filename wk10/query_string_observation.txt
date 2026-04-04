@@ -1,0 +1,27 @@
+Scenario 1 - Valid English Word via URL:
+Navigating to https://www.dictionary.com/browse/cybersecurity displayed a full
+dictionary entry for the word "cybersecurity". The page showed the pronunciation,
+part of speech (noun), and two definitions. This confirms that the site correctly
+handles valid English words and returns the appropriate content.
+
+Scenario 2 - Invalid English Word via URL:
+Navigating to the URL with an invalid word (asdfghjkl) after the /browse/ section
+displayed a "No results found for asdfghjkl" message. The site handled the invalid
+input gracefully without crashing, and suggested a list of popular searches instead.
+This shows the site has proper error handling for unrecognized input.
+
+Scenario 3 - Script Tag Injected via Search Form:
+When the script tag <script>alert('hello')</script> was entered into the search form,
+the site did not execute the JavaScript. Instead, dictionary.com's security service
+detected the malicious input and blocked access entirely, displaying a "Sorry, you
+have been blocked" page with the message "You are unable to access dictionary.com".
+This demonstrates that the site has a Web Application Firewall (WAF) or security
+filter in place that detects and blocks XSS (Cross-Site Scripting) attempts submitted
+through the form.
+
+Scenario 4 - Script Tag Injected via URL:
+When the script tag was appended directly to the URL, the same result occurred as
+in Scenario 3. The site's security service immediately detected the malicious content
+in the URL and blocked access, showing the same "Sorry, you have been blocked" page.
+This confirms that dictionary.com applies security filtering on both form input and
+URL query parameters, effectively mitigating XSS attacks from both vectors.

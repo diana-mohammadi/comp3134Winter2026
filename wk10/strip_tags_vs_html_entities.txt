@@ -1,0 +1,5 @@
+strip_tags() removes HTML and script tags completely from input.
+
+htmlspecialchars() converts special characters into safe HTML entities, preventing execution but preserving the content.
+
+htmlspecialchars() is safer because it prevents XSS while keeping user input visible.
