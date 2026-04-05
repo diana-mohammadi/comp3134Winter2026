@@ -1,0 +1,5 @@
+When using csfr_form.php, the login succeeds because the session confirmation token matches the hidden form confirmation value.
+
+When using csfr.html, the forged request fails because it does not have the valid confirmation token stored in the user session.
+
+This shows that using a session-based confirmation token helps mitigate CSFR by validating that the request came from the legitimate form.
